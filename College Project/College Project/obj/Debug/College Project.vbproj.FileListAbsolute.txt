@@ -1,0 +1,44 @@
+D:\.NET\College Project\College Project\bin\Debug\College Project.exe.config
+D:\.NET\College Project\College Project\bin\Debug\College Project.exe
+D:\.NET\College Project\College Project\bin\Debug\College Project.pdb
+D:\.NET\College Project\College Project\bin\Debug\College Project.xml
+D:\.NET\College Project\College Project\bin\Debug\Guna.UI2.dll
+D:\.NET\College Project\College Project\obj\Debug\College_Project.Resources.resources
+D:\.NET\College Project\College Project\obj\Debug\College Project.vbproj.GenerateResource.Cache
+D:\.NET\College Project\College Project\obj\Debug\College Project.exe
+D:\.NET\College Project\College Project\obj\Debug\College Project.xml
+D:\.NET\College Project\College Project\obj\Debug\College Project.pdb
+D:\.NET\College Project\College Project\bin\Debug\college_project.mdf
+D:\.NET\College Project\College Project\bin\Debug\college_project_log.ldf
+D:\.NET\College Project\College Project\obj\Debug\College_Project.Billing.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.Items.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.Loading.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.Login.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.ItemReport.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.BillingReport.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.ItemDashboard.resources
+D:\.NET\College Project\College Project\obj\Debug\College_Project.BillingDashboard.resources
+E:\College Project\College Project\bin\Debug\college_project.mdf
+E:\College Project\College Project\bin\Debug\college_project_log.ldf
+E:\College Project\College Project\obj\Debug\College_Project.Billing.resources
+E:\College Project\College Project\obj\Debug\College_Project.BillingDashboard.resources
+E:\College Project\College Project\obj\Debug\College_Project.BillingReport.resources
+E:\College Project\College Project\obj\Debug\College_Project.ItemDashboard.resources
+E:\College Project\College Project\obj\Debug\College_Project.ItemReport.resources
+E:\College Project\College Project\obj\Debug\College_Project.Items.resources
+E:\College Project\College Project\obj\Debug\College_Project.Loading.resources
+E:\College Project\College Project\obj\Debug\College_Project.Login.resources
+E:\College Project\College Project\obj\Debug\College_Project.Resources.resources
+E:\College Project\College Project\obj\Debug\College Project.vbproj.GenerateResource.Cache
+E:\College Project\College Project\bin\Debug\Grocery Management System.exe.config
+E:\College Project\College Project\bin\Debug\Grocery Management System.exe.manifest
+E:\College Project\College Project\bin\Debug\Grocery Management System.application
+E:\College Project\College Project\bin\Debug\Grocery Management System.exe
+E:\College Project\College Project\bin\Debug\Grocery Management System.pdb
+E:\College Project\College Project\bin\Debug\Grocery Management System.xml
+E:\College Project\College Project\obj\Debug\Grocery Management System.exe.manifest
+E:\College Project\College Project\obj\Debug\Grocery Management System.application
+E:\College Project\College Project\obj\Debug\Grocery Management System.exe
+E:\College Project\College Project\obj\Debug\Grocery Management System.xml
+E:\College Project\College Project\obj\Debug\Grocery Management System.pdb
+E:\College Project\College Project\obj\Debug\College Project.vbprojResolveAssemblyReference.cache

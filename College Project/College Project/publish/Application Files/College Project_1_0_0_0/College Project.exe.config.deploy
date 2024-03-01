@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="College_Project.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="College_Project.My.MySettings.college_projectConnectionString"
+            connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\college_project.mdf;Integrated Security=True;Connect Timeout=30"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <College_Project.My.MySettings>
+            <setting name="printer" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="logo" serializeAs="String">
+                <value />
+            </setting>
+        </College_Project.My.MySettings>
+    </userSettings>
+</configuration>

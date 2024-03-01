@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21A76300-CDF8-4212-BD56-57E39651358D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>College_Project.My.MyApplication</StartupObject>
+    <RootNamespace>College_Project</RootNamespace>
+    <AssemblyName>Grocery Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Amresh\Desktop\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Grocery Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Grocery Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BE75B0ABAFC6B4A84EC8A231F7043A15B7458FF8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>College Project_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Billing.Designer.vb">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingDashboard.Designer.vb">
+      <DependentUpon>BillingDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BillingDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingReport.Designer.vb">
+      <DependentUpon>BillingReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BillingReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="college_projectDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="college_projectDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="college_projectDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="college_projectDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="college_projectDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="college_projectDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="college_projectDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>college_projectDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDashboard.Designer.vb">
+      <DependentUpon>ItemDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemReport.Designer.vb">
+      <DependentUpon>ItemReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.vb">
+      <DependentUpon>Items.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.vb">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingDashboard.resx">
+      <DependentUpon>BillingDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingReport.resx">
+      <DependentUpon>BillingReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemDashboard.resx">
+      <DependentUpon>ItemDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemReport.resx">
+      <DependentUpon>ItemReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="College Project_TemporaryKey.pfx" />
+    <None Include="college_projectDataSet.xsc">
+      <DependentUpon>college_projectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet.xss">
+      <DependentUpon>college_projectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet1.xsc">
+      <DependentUpon>college_projectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet1.xss">
+      <DependentUpon>college_projectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet2.xsc">
+      <DependentUpon>college_projectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet2.xss">
+      <DependentUpon>college_projectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet3.xsc">
+      <DependentUpon>college_projectDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet3.xss">
+      <DependentUpon>college_projectDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet4.xsc">
+      <DependentUpon>college_projectDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet4.xss">
+      <DependentUpon>college_projectDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet5.xsc">
+      <DependentUpon>college_projectDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet5.xss">
+      <DependentUpon>college_projectDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet6.xsc">
+      <DependentUpon>college_projectDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="college_projectDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>college_projectDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="college_projectDataSet6.xss">
+      <DependentUpon>college_projectDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="college_project.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="college_project_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>college_project.mdf</DependentUpon>
+    </Content>
+    <Content Include="logo.ico" />
+    <None Include="Resources\Daco_3794000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
